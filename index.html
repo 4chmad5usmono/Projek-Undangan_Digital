@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Wedding Invitation</title>
+    <title>undangan digital</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,30 +19,30 @@
   <body>
     <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
         <main>
-            <h4>Kepada Bapak/Ibu/Saudara/Saudari </h4>
-            <h1>Joko & Gadis</h1>
-            <p>Akan melangsungkN resepsi pernikaha dalam :</p>
+            <h4>Kepada Bapak/Ibu/saudara/i</h4>
+            <h1>Putra & Putri</h1>
+            <p>Akanmelangsungkan resepsi pernikahan dalam :</p>
             <div class="simply-countdown"></div>
-            <a href="#undangan" class="btn btn-lg">Lihat Undangan</a>
+            <a href="#undangan" class="btn btn-lg mt-4" >Lihat Undangan</a>
         </main>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <script>
-      simplyCoundown('.simply-countdown', {
-        year: 2023, // required
-            month: 11, // required
+        simplyCountdown(' .simply-countdown' , {
+            year: 2024, // required
+            month: 5, // required
             day: 7, // required
             hours: 8, // Default is 0 [0-23] integer
+            minutes: 11, // Default is 0 [0-59] integer
+            seconds: 0, // Default is 0 [0-59] integer
             words: { //words displayed into the countdown
-                days: { singular: 'hari', plural: 'hari' },
-                hours: { singular: 'jam', plural: 'jam' },
-                minutes: { singular: 'menit', plural: 'menit' },
-                seconds: { singular: 'detik', plural: 'detik' }
-            },  
-      })
+                days: { singular: 'day', plural: 'days' },
+                hours: { singular: 'hour', plural: 'hours' },
+                minutes: { singular: 'minute', plural: 'minutes' },
+                seconds: { singular: 'second', plural: 'seconds' }
+            },
+        });
     </script>
-
-
   </body>
 </html>

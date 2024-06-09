@@ -1,10 +1,10 @@
-.simply-countdown{
-    overflow:hidden;
-    display:table;
+.simply-countdown {
+    overflow: hidden;
+    display: table;
     margin: auto;
     font-family:'Arial',sans-serif;
 }
-.simply-countdown>.simply-section{
+.simply-countdown > .simply-section {
     width:50px;
     height:50px;
     padding:80px;
